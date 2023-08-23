@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    char x[50];
+    scanf("%[^\n]s",x);
+    printf("%s\n",x);
+    printf("%s\n",x);
+    printf("%s\n",x);
+    printf("%s\n",x);
+}
