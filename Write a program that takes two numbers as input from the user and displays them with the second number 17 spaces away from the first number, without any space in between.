@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    long int s,b;
+    scanf("%ld %ld",&b,&s);
+    
+    printf("%ld %16ld",b,s);
+}
