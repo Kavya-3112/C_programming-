@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+   int N,c;
+   scanf("%d %d",&N,&c);
+   for(int i=N;i<=c;i++)
+   {
+       if (i%2!=0)
+        {
+            printf("%d ",i);
+            
+        }
+        
+       
+   }
+}
+   
