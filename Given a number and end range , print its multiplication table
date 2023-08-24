@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int n,i,mul;
+    scanf("%d  %d",&n,&mul);
+    for(i=1;i<=mul;i=i+1)
+    {
+        printf("%d X %d = %d\n",i,n,i*n);
+    }
+} 
