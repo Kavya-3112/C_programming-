@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int N,di,a,sum=0;
+    float avg;
+    scanf("%d",&N);
+    for(di=1;di<=N;di=di+1)
+    {
+        scanf("%d",&a);
+        sum=sum+a;
+    }
+        avg=(float)sum/N;
+        printf("%.2f",avg);
+    
+}
